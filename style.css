@@ -1,0 +1,70 @@
+.india{
+    border: solid;
+    width: 900px;
+}
+p{
+    font-size: 50px;
+    margin-left: 410px;
+    margin-top: 25%px;
+    
+}
+.orange{
+    height: 200px;
+    width: 900px;
+    background-color: orangered;
+}
+.circle{
+    background-color: navy;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: -200px;
+    left: 350px;
+    border-radius: 50%;
+}
+.green{
+    height: 200px;
+    width: 900px;
+    background-color: green;
+    position: relative;
+    top: 200px;
+}
+.line1{
+    background-color: white;
+    height: 200px;
+    width: 5px;
+    position: absolute;
+    left: 50%;
+    border: solid navy .5px;
+    
+}
+.line2{
+    background-color: white;
+    height: 5px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    border: solid navy .5px;
+}
+.line3{
+    background-color: white;
+    height:200px;
+    width: 5px;
+    border: solid navy .5px;
+    position: absolute;
+    left: 50%;
+    rotate: 45deg;
+}
+.line4{
+    background-color: white;
+    height: 200px;
+    width: 5px;
+    border: solid navy .5px;
+    position: absolute;
+    left: 50%;
+    rotate: 135deg;
+}
+body{
+    margin-left: 20%;
+}
